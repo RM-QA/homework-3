@@ -21,8 +21,7 @@ public class Main {
 
         // Task 3 : Temperature Converter
 
-        double c = 26;
-        // // Variable (c) means temperature in Celsius
+        double c = 26;    // Variable (c) means temperature in Celsius
         double f = (9 / 5) * c + 32;
         System.out.println(f);
 
