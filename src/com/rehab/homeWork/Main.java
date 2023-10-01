@@ -22,7 +22,7 @@ public class Main {
         // Task 3 : Temperature Converter
 
         double c = 26;    // Variable (c) means temperature in Celsius
-        double f = (9 / 5) * c + 32;
+        double f = (9.0 / 5.0) * c + 32;
         System.out.println(f);
 
         // Task 4 : Max (int) value + 1
@@ -31,7 +31,7 @@ public class Main {
         int extraMax = max + 1;
         System.out.println(extraMax);
 
-        // Task 5 : Rounding a number
+        // Task 5 : Rounding firstNumber number
 
         double v = 99.12345;
         int s = (int) v;
@@ -55,12 +55,12 @@ public class Main {
         // task 8 : Data processing
 
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        int d = a + b;
-        System.out.println(a);
-        System.out.println(b);
-        System.out.println(d);
+        int firstNumber = sc.nextInt();
+        int secondNumber = sc.nextInt();
+        int sum = firstNumber + secondNumber;
+        System.out.println(firstNumber);
+        System.out.println(secondNumber);
+        System.out.println(sum);
 
     }
 }
